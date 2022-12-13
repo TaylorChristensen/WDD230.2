@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Rexburg Chamber of Commerce</title>
+</head>
+<body>
+
+<header>
+    <div>
+        <a id="logo_link" href="./index.html"></a>
+            <img class="logo" src="../lesson3/images/Rexburg Chamber Logo.jpg" alt="Logo">
+        </a> 
+    </div>    
+    
+    <!-- <nav>
+        <a class="link" id="link1" href="index.html">Home</a>
+        <a class="link" id="link2" href="./discover/discover.html">Discover</a>
+        <a class="link" id="link3" href="">Page 2</a>
+        <a class="link" id="link4" href="">Page 3</a>
+    </nav> -->
+
+    <div class="menu-btn">
+        <div class="menu-btn-burger">
+                <!-- <a class="link" id="link1" href="index.html">Home</a>
+                <a class="link" id="link2" href="./discover/discover.html">Discover</a>
+                <a class="link" id="link3" href="./directory/directory.html">Directory</a>
+                <a class="link" id="link4" href="./join/join.html">Join</a> -->
+        </div>
+    </div>
+</header>
+
+<main>
+    
+    <img id="hero-img" src="./images/wdd230 hero img.jpg" alt="Business Meeting">
+    
+
+    <p id="box-2">News Release</p>
+    
+    <div id="box-5-1">
+        <!-- <p id="box-5-2">Spotlight 1</p>
+        <p id="box-5-3">Spotlight 2</p> -->
+    </div>
+    
+    <p id="box-3">Join</p>
+    <p id="box-4">Event</p>
+
+    <div id="box-6">
+        <p>Weather</p>
+        <img id="weather-img" src="./images/cloudy-day.png" alt="Partly Cloudy">
+        <h3>33°C</h3>
+        <h4>Partly Cloudy</h4>
+        <p>Wind Speed:</p>
+        <p>Wind Chill</p>
+    </div>
+</main>
+
+<footer>
+    <p>Rexburg Chamber of Commerce</p>
+    <p>123 Main Street, Rexburg ID, 83440</p>
+    <p>info@RexburgCC.org</p>
+    <p>+(208) 123-4567</p>
+    <p>2022 Rexburg Chamber | Taylor Christensen | WDD230 Project</p>
+</footer>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    let menuOpen = false;
+    menuBtn.addEventListener('click',() => {
+        if(!menuOpen) {
+            menuBtn.classList.add('open');
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menuOpen = false;
+        }
+    })
+</script>
+
+</body>
+</html>

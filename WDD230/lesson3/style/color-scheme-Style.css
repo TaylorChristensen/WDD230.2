@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #184E77;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1fr, 9);
+    grid-template-rows: 1fr;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+} 
+
+    #head1 {
+        font-size: x-large;
+        grid-column: 1 / 2;
+    }
+
+    #head2 {
+        font-size: x-large;
+        grid-column: 3 / 4;
+    }
+
+    #head3 {
+        font-size: x-large;
+        grid-column: 5 / 6;
+    }
+
+    #head4 {
+        font-size: x-large;
+        grid-column: 7 / 8;
+    }
+
+    img {
+        width: 250px;
+    }
+
+
+
+footer {
+    background-color: #184E77;
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+/* @media (min-width: 375px) {
+
+}
+
+@media (min-width: 375px) {
+
+} */
+
+/* .colors {
+    margin-left: 25px;
+    margin-right: 25px;
+} */
+
+#color1 {
+    background-color: #d9ed92;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color2 {
+    background-color: #b5e48c;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color3 {
+    background-color: #99d98c;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    margin-left: 10px;
+}
+#color4 {
+    background-color: #76C893;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color5 {
+    background-color: #52B69A;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color6 {
+    background-color: #34A0A4;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color7 {
+    background-color: #168AAD;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color8 {
+    background-color: #1A759F;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color9 {
+    background-color: #1E6091;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+#color10 {
+    background-color: #184E77;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+}
+
+#scheme-link-box {
+    text-align: center;
+    border-style: double;
+    background-color: #52B69A;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 50px;
+    color: black;
+    border-radius: 15px;
+}
+
+#scheme-link {
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+}
+
+#explanation-title {
+    font-size: x-large;
+    margin-top: 50px;
+}
+
+#explanation {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#explanation-list {
+    margin-top: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}

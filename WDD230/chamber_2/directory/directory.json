@@ -1,0 +1,84 @@
+{
+    "businesses": [
+      {
+        "name": "A-1 Windsheild, Inc",
+        "address": "25 N 12th W, Rexburg, ID 83440",
+        "phone": "(208) 356-8640",
+        "membershipLevel": "Silver Member",
+        "imageURL": "https://a-1windshield.com/wp-content/uploads/2016/06/windshieldtext.jpg",
+        "webLink": "https://a-1windshield.com/"
+      },
+
+      {
+        "name": "Advanced Plumbing",
+        "address": "4091 East 600 North Rigby, ID 83442",
+        "phone": "(208) 356-0322",
+        "membershipLevel": "Silver Member",
+        "imageURL": "https://www.mydadcandothat.com/wp-content/themes/bc-advanced-home-services/img/logos/logo_header.svg",
+        "webLink": "http://www.mydadcandothat.com"
+      },
+
+      {
+        "name": "Alta View Apartments",
+        "address": "346 W 2nd S, Rexburg, ID 83440",
+        "phone": "(208) 881-8573",
+        "membershipLevel": "Bronze Member",
+        "imageURL": "https://medialibrarycf.entrata.com/10128/MLv3/9/36/2022/3/29/62084/557f3d4469d3e432.png",
+        "webLink": "https://www.altaviewapts.com/"
+      },
+
+      {
+        "name": "Bodifi",
+        "address": "730 W 7th S, Rexburg, ID 83440",
+        "phone": "(208) 356-7780",
+        "membershipLevel": "Gold Member",
+        "imageURL": "https://www.bodifi.com/wp-content/uploads/2019/04/logo.jpg",
+        "webLink": "https://www.bodifi.com/"
+      },
+
+      {
+        "name": "Broulims Fresh Foods",
+        "address": "124 W Main St, Rexburg, ID 83440",
+        "phone": "(208) 356-4651",
+        "membershipLevel": "Gold Member",
+        "imageURL": "https://www.broulims.com/",
+        "webLink": "http://www.broulims.com"
+      },
+
+      {
+        "name": "Crispy Cones, LLC",
+        "address": "163 W Main St Suite 102, Rexburg, ID 83440",
+        "phone": "(208) 360-9970",
+        "membershipLevel": "Silver Member",
+        "imageURL": "https://images.squarespace-cdn.com/content/v1/5ae4c135d274cb3bcc1154da/1524944844221-QUDGLRXJULFZN7MTZFSI/CrispyCones-AdamHarper-WhiteIcon.png?format=1500w",
+        "webLink": "https://www.czechcrispycones.com/"
+      },
+
+      {
+        "name": "Eden Apartments",
+        "address": "555 Mikan Dr, Rexburg, ID 83440",
+        "phone": "(208) 278-2100",
+        "membershipLevel": "BRonze Member",
+        "imageURL": "https://medialibrarycf.entrata.com/5422/MLv3/9/36/2022/3/25/153429/5d0aabc4c45200.44164667754.png",
+        "webLink": "https://www.edenapartments.com/"
+      },
+
+      {
+        "name": "Jensen Jewlers of Idaho",
+        "address": "505 N 2nd E, Rexburg, ID 83440",
+        "phone": "(208) 734-7920",
+        "membershipLevel": "Silver Member",
+        "imageURL": "http://static1.squarespace.com/static/555b6e7de4b0398d36bd9a62/t/5581e542e4b0a5db48a533f7/1434576194615/jj-logo-web-white.png",
+        "webLink": "https://jensen-jewelers.com/"
+      },
+      
+      {
+        "name": "Rigby, Andrus, and Rigby, PLLC",
+        "address": "25 N 2nd E St, Rexburg, ID 83440",
+        "phone": "(208) 356-3633",
+        "membershipLevel": "Bronze Member",
+        "imageURL": "https://static.wixstatic.com/media/e3c1a2_afd9af9178c84614aa2cd01c21f70136~mv2.png/v1/fill/w_280,h_140,al_c,lg_1,q_85,enc_auto/RAR2.png",
+        "webLink": "https://www.rex-law.com/"
+      }
+    ]
+}

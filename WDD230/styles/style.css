@@ -1,0 +1,30 @@
+header {
+    background-color: #002D5C;
+    height: 250px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#profilepic {
+    height: 250px;
+
+}
+
+#namehead{
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-top: -150px;
+    color: aliceblue;
+}
+
+#footerhead {
+    color: aliceblue;
+    font-size: x-large;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+footer {
+    background-color: #002D5C;
+    height: 150px;
+}

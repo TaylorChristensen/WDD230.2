@@ -1,0 +1,137 @@
+body {
+    margin: 0% 0% 0% 0%;
+}
+header {
+    background-color: #1d0d63;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: sticky;
+    top: 0px;
+    height: 125px;
+    font-size: large;
+    z-index: 1;
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;  
+}
+
+#link1 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link2 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link3 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link4 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image:hover {
+    opacity: .5;
+    filter: blur(3px);
+}
+
+#img-temple {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+#img-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#img-tetons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#img-watertower {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#img-byui {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#heading {
+    font-size: large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#description {
+    font-size: medium;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #1d0d63;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: large;
+    margin-top: 150px;
+}

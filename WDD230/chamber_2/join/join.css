@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+#navbar {
+    background-color: #184E77;
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+#navLogo {
+    width: 75px;
+    grid-area: 1 / 1 / 2 / 2;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#link1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#link2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#link3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+#link4 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+#fbLogo {
+    width: 50px;
+    grid-area: 1 / 3 / 2 / 4;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#liLogo {
+    width: 50px;
+    margin-right: -50px;
+    grid-area: 1 / 4 / 2 / 5;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+a:hover {
+    background-color: #52B69A;
+    border-radius: 10px;
+  }
+
+  form {
+    font-size: small;
+}
+
+.section-header {
+    background-color: #52B69A;
+    color: white;
+    font-size: x-large;
+    padding: 25px 0px 25px 50px;
+    
+}
+
+.info-box {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+input {
+    width: 250px;
+}
+
+textarea {
+    width: 250px;
+    height: 150px;
+}
+
+.membership-title {
+    color: black;
+    margin-left: 25px;
+}
+
+.membership-detail {
+    color: gray;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+#submit-btn {
+    text-align: center;
+    width: 20%;
+    margin: 75px 40% 25px 40%;
+    height: 30px;
+    background-color: #168AAD;
+    color: white;
+    border-radius: 15px;
+
+}
+
+
+footer {
+    background-color: #184E77;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+  @media screen and (min-width: 820px) {
+    body {
+        margin: 0% 0% 0% 0%;
+        font-family: 'Lato', sans-serif;
+    }
+
+    #navbar {
+        background-color: #184E77;
+        position: sticky;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+
+    #navLogo {
+        width: 100px;
+        grid-area: 1 / 1 / 2 / 2;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    
+    .link {
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #link1 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    
+    #link2 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    
+    #link3 {
+        grid-area: 1 / 4 / 2 / 5;
+    }
+    
+    #link4 {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    
+    #fbLogo {
+        grid-area: 1 / 6 / 2 / 7;
+        margin-top: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #liLogo {
+        grid-area: 1 / 7 / 2 / 8;
+        margin-top: 25px;
+        margin-right: 10px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    a:hover {
+        background-color: #52B69A;
+        border-radius: 10px;
+      }
+
+      form {
+        font-size: medium;
+    }
+    
+    .section-header {
+        background-color: #52B69A;
+        color: white;
+        font-size: x-large;
+        padding: 25px 0px 25px 50px;
+        
+    }
+    
+    .info-box {
+        padding-left: 75px;
+    }
+    
+    input {
+        width: 250px;
+    }
+    
+    textarea {
+        width: 450px;
+        height: 150px;
+    }
+    
+    .membership-title {
+        color: black;
+        margin-left: 25px;
+    }
+    
+    .membership-detail {
+        color: gray;
+        font-style: italic;
+        margin-left: 50px;
+    }
+    
+    #submit-btn {
+        text-align: center;
+        width: 20%;
+        margin: 75px 40% 25px 40%;
+        height: 30px;
+        background-color: #168AAD;
+        color: white;
+        border-radius: 15px;
+    
+    }    
+
+    footer {
+        background-color: #184E77;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: medium;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    /* This is the section of CSS for the Largest Viewport */
+    body {
+        margin: 0% 0% 0% 0%;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #navbar {
+        background-color: #184E77;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+    
+    #navLogo {
+        width: 100px;
+        grid-area: 1 / 1 / 2 / 2;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    
+    .link {
+        color: white;
+        text-decoration: none;
+        font-size: xx-large;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    /* .link :hover {
+        background-color: #52B69A;
+      } */
+    
+    #link1 {
+        grid-area: 1 / 5 / 2 / 6;
+    }
+    
+    #link2 {
+        grid-area: 1 / 6 / 2 / 7;
+    }
+    
+    #link3 {
+        grid-area: 1 / 7 / 2 / 8;
+    }
+    
+    #link4 {
+        grid-area: 1 / 8 / 2 / 9;
+    }
+    
+    #fbLogo {
+        grid-area: 1 / 11 / 2 / 12;
+        margin-top: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    #liLogo {
+        grid-area: 1 / 12 / 2 / 13;
+        margin-top: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    a:hover {
+        background-color: #52B69A;
+        border-radius: 10px;
+      }
+
+    form {
+        font-size: small;
+    }
+    
+    .section-header {
+        background-color: #52B69A;
+        color: white;
+        font-size: x-large;
+        padding: 25px 0px 25px 50px;
+        
+    }
+    
+    .info-box {
+        padding-left: 75px;
+    }
+    
+    input {
+        width: 250px;
+    }
+    
+    textarea {
+        width: 450px;
+        height: 150px;
+    }
+    
+    .membership-title {
+        color: black;
+        margin-left: 25px;
+    }
+    
+    .membership-detail {
+        color: gray;
+        font-style: italic;
+        margin-left: 50px;
+    }
+    
+    #submit-btn {
+        text-align: center;
+        width: 20%;
+        margin: 75px 40% 25px 40%;
+        height: 30px;
+        background-color: #168AAD;
+        color: white;
+        border-radius: 15px;
+    
+    }
+    
+    
+    footer {
+        background-color: #184E77;
+        color: white;
+        text-align: center;
+        margin-top: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    
+  }

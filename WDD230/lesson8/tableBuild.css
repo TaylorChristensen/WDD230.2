@@ -1,0 +1,47 @@
+caption {
+    background-color: #0047AB;
+    color: white;
+    font-size: large;
+}
+
+table {
+    width: 20%;
+    margin-right:40%;
+    margin-left: 40%;
+    margin-top: 150px;
+}
+
+th {
+    text-align: left;
+}
+
+caption, table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption, th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+#head-color {
+    background-color: #89CFF0;
+}
+
+#aug-color {
+    background-color: #0047AB;
+    color: white;
+}
+
+#table-detail{
+    color: #0047AB;
+    text-align: center;
+}

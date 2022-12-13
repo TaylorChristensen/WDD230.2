@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Lato', sans-serif;
+}
+header {
+    background-color: #1d0d63;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: sticky;
+    top: 0px;
+    height: 125px;
+    font-size: large;
+    z-index: 1;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;  
+}
+
+.link {
+    font-family: 'Lato', sans-serif;
+}
+
+#link1 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+  
+#link2 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+  
+#link3 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+  
+#link4 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#btn-box {
+    margin-right: 30%;
+    margin-right: 30%;
+}
+
+
+
+
+
+footer {
+    background-color: #1d0d63;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: large;
+    margin-top: 150px;
+}

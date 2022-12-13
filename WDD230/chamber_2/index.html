@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexburg Chamber of Commerce | Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/Rexburg Chamber Logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="navbar">
+        <img id="navLogo" src="./images/Rexburg Chamber Logo.jpg" alt="">
+        
+            <a class="link" id="link1" href="./index.html">Home</a>
+            <a class="link" id="link2" href="./discover/discover.html">Discover</a>
+            <a class="link" id="link3" href="./directory/directory.html">Directory</a>
+            <a class="link" id="link4" href="./join/join.html">Join</a>
+        
+        <a id="fbLogo" href="https://www.facebook.com/"><img src="./images/icons8-facebook-50.png" alt="facebookLogo"></a>
+        <a id="liLogo" href="https://www.linkedin.com/"><img src="./images/icons8-linkedin-circled-50.png" alt="linkedInLogo"></a>
+    </div>
+
+    <main>
+        <div id="box1">
+            <h1 class="boxHeader" id="boxTitle">Christmas at Hemming Village</h1>
+            <p>Join the community to celebrate the start of the Christmas Season, 
+                December 3rd from 1pm-5pm at the Hemming Village Shopping Center.
+                A variety of activities will be offered including Free Hay Rides, 
+                Pictures with Santa and the Grinch, and a live Nativity! Refreshments 
+                will also be provided.
+            </p>
+            <a href="https://www.google.com/maps/place/Hemming+Village/@43.8220978,-111.7912939,17z/data=!3m2!4b1!5s0x53540baba5d379c5:0x696e001f99100c2!4m5!3m4!1s0x53540babaf5b8a7b:0xc7d862ca781683d9!8m2!3d43.822094!4d-111.788719"><button id="mapBtn">Get Directions</button></a>
+        </div>
+        <div id="box2">
+            <h2 class="boxHeader" id="boxTitle">Weather</h2>
+            <div id="weatherBox">
+                
+                <!-- <img id="weatherImg" src="./images/snow.png" alt="">
+                <p>33°c</p>
+                <p>Partly Cloudy</p>
+                <p>Wind Speed:</p>
+                <p>Wind Chill:</p> -->
+
+                <p><span id="current-temp"></span> &deg;F</p>
+                
+                <figure>
+                  <img src="" alt="" id="weather-icon" />
+                  <figcaption></figcaption>
+                </figure>
+
+                <script src="./weather-api/weather-api.js"></script>
+            </div>
+        </div>
+        <div id="box3">
+            <h3 class="boxHeader" id="boxTitle">Join</h3>
+            <a href="./join/join.html"><button id="joinBtn">Join Now</button></a>
+            <p>Join us and embrace the power of our local business network. Doing so will help you grow your at an exponential rate!</p>
+        </div>
+        <div id="box4">
+            <h4 class="boxHeader" id="boxTitle">Spotlight</h4>
+            <div id="box4-2">
+                <div id="spot1">
+                    <h1>Freeman Clothing</h1>
+                    <img src="./images/Freeman Ram Logo.webp" alt="">
+                    <p>Look good, feel good, work good!</p>
+                    <a href="https://freemanclothing.com/">Link to Website</a>
+                    <p>(208) 359-2871</p>
+                </div>
+                <div id="spot2">
+                    <h1>A1 Windshield</h1>
+                    <img src="./images/windshield Logo.jpg" alt="">
+                    <p>Quality Windshield Replacement in a Quality amount of time.</p>
+                    <a href="https://a-1windshield.com/">Link to Website</a>
+                    <p>(208) 356-8640</p>
+                </div>  
+            </div>
+        </div>
+        <div id="box5">
+            <img id="heroImg" src="./images/teamwork.jpg" alt="">
+            <p id="heroMsg">"Alone we can do so little; Together we can do so much."<br>
+                                -Helen Keller</p>
+        </div>
+        <div id="box6">
+            <h6 class="boxHeader" id="boxTitle">News Release</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ultricies, justo vel porttitor vestibulum, velit dolor sollicitudin sapien,
+                quis rutrum ipsum purus ac enim. In metus enim, ultricies a odio a, rutrum molestie nibh. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Aenean vel tristique libero. Pellentesque vel pretium arcu. Sed ornare ultrices purus, finibus dictum est scelerisque 
+                ornare. In molestie, ligula consectetur sagittis venenatis, lectus mi condimentum nulla, id laoreet tellus quam et orci. Ut tempus quam 
+                vel faucibus lobortis. Sed quis diam egestas, facilisis velit ultrices, porttitor nibh. Integer vulputate lorem vitae odio ullamcorper 
+                semper. Vivamus aliquet congue auctor. Donec est sapien, consectetur aliquam dui sit amet, vehicula pellentesque mauris. Nam interdum efficitur 
+                dolor non pellentesque. Aliquam quis gravida nisl.</p>
+        </div>
+
+        <!-- <div id="box5"><img id="heroImg" src="./images/idahoField.jpg" alt=""></div> -->
+    </main>
+
+
+    <footer>
+        <p>Rexburg Chamber of Commerce</p>
+        <p>123 Main Street, Rexburg ID, 83440</p>
+        <p>info@RexburgCC.org</p>
+        <p>+(208) 123-4567</p>
+        <p>2022 Rexburg Chamber | Taylor Christensen | WDD230 Project</p>
+    </footer>
+</body>
+</html>
+

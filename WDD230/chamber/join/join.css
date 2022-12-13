@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header {
+    background-color: #1d0d63;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: sticky;
+    top: 0px;
+    height: 125px;
+    font-size: large;
+    z-index: 1;
+}
+  
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: large;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5px;  
+}
+
+#link1 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link2 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link3 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#link4 {
+    font-size: xx-large;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  body {
+    margin: 0% 0% 0% 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form-div {
+    border: black;
+}
+
+.section-header input {
+    display: inline-block;
+}
+
+.section-header {
+    background-color: #168AAD;
+    color: white;
+    font-size: x-large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* margin: 10px 100px 10px 10px; */
+}
+
+.info-box {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+input {
+    width: 250px;
+}
+
+textarea {
+    width: 450px;
+    height: 150px;
+}
+
+.membership-title {
+    color: black;
+    margin-left: 25px;
+}
+
+.membership-detail {
+    color: gray;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+#submit-btn {
+    margin-left: 40%;
+    margin-top: 15px;
+    margin-right: 40%;
+    width: 20%;
+    height: 30px;
+    background-color: #76C893;
+    border-radius: 15px;
+
+}
+
+footer {
+    background-color: #1d0d63;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: large;
+    margin-top: 100px;
+}

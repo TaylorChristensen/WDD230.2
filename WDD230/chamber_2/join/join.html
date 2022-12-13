@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexburg Chamber of Commerce | Home</title>
+    <link rel="icon" type="image/x-icon" href="../images/Rexburg Chamber Logo.jpg">
+    <link rel="stylesheet" href="./join.css">
+</head>
+<body>
+    <div id="navbar">
+        <img id="navLogo" src="../images/Rexburg Chamber Logo.jpg" alt="">
+        
+            <a class="link" id="link1" href="../index.html">Home</a>
+            <a class="link" id="link2" href="../discover/discover.html">Discover</a>
+            <a class="link" id="link3" href="../directory/directory.html">Directory</a>
+            <a class="link" id="link4" href="./join.html">Join</a>
+        
+        <a id="fbLogo" href="https://www.facebook.com/"><img src="../images/icons8-facebook-50.png" alt="facebookLogo"></a>
+        <a id="liLogo" href="https://www.linkedin.com/"><img src="../images/icons8-linkedin-circled-50.png" alt="linkedInLogo"></a>
+    </div>
+
+    <main>
+        <form action="./thankyou.html" method="get">
+            <h1 class="section-header">Personal Information</h1>
+            
+            <div class="info-box">
+                    <label for="input-fName">First Name</label><br>
+                    <input id="input-fName" name="input-fName" type="text" placeholder="Micheal"><br>
+                            
+                    <label for="input-lName">Last Name</label><br>
+                    <input id="input-lName" type="text" placeholder="Scott"><br>
+                            
+                    <label for="input-email">Email</label><br>
+                    <input id="input-email" name="input-email" type="email" placeholder="MichealScott@DunderMifflin.com" required> <br>
+    
+                    <label for="input-cell">Cell Phone</label><br>
+                    <input id="input-cell" name="input-cell" type="tel" placeholder="(123)-456-7890">
+            </div>
+    
+            <h2 class="section-header">Business Information</h2>
+
+            <div class="info-box">
+                
+                    <label for="input-title">Personal Title (Held within the Business)</label> <br>
+                    <input id="input-title" name="input-title" type="text" placeholder="Regional Manager"><br>
+    
+                    <label for="input-BusName">Business Name</label><br>
+                    <input id="input-BusName" name="input-BusName" type="text" placeholder="Dunder Mifflin"><br>
+    
+                    <label for="input-busDesc">Business Description</label><br>
+                    <textarea name="input-busDesc" id="busDescBox" cols="30" rows="10" placeholder="We are the top paper supplier located in Scranton, PA. Although, we recently opened up our Rexburg Office."></textarea>
+            </div>
+    
+            <h3 class="section-header">Prefered Membership Level</h3>
+            <div class="info-box">
+                        
+                <label for="membership-selection">Select a Membership:</label>
+    
+                <select name="membership-selection" id="member-select">
+                    <option value="NP Membership">NP Membership</option>
+                    <option value="Bronze Membership">Bronze Memebership</option>
+                    <option value="Silver Membership">Silver Membership</option>
+                    <option value="Gold Membership">Gold Membership</option>
+                </select>
+    
+                <p class="membership-title">NP Membership (for non profit organizations and there is no fee)</p>
+                        <p class="membership-detail">Fee: $0.00 (specific requirements that must be met.) <br> <br>
+                            Benefits: All of the Benefits in the Bronze, Silver and Gold Memberships are included.
+                        </p>
+                    <p class="membership-title">Bronze Membership</p>
+                        <p class="membership-detail">Fee: $150.00 <br> <br>
+                            Benefits: Receive Monthly Newsletter, Invited to Annual Community Fundraisers
+                        </p>
+                    <p class="membership-title">Silver Membership</p>
+                        <p class="membership-detail">Fee: $200.00 <br> <br>
+                            Benefits: Access to being Featured on our 
+                            spotlight page, Monthly Community Mixers, 
+                            All Bronze Level Benefits.
+                        </p>
+                    <p class="membership-title">Gold Membership</p>
+                        <p class="membership-detail">Fee:$500.00 <br> <br>
+                            Benefits: Exclusive Networking Dinners 
+                            (Monthly), Advertising Trainings, All Silver 
+                            and Bronze Level Benefits.
+                        </p>
+    
+                    <input name="date-time" id="date-time" type="hidden">
+            </div>
+    
+            <button id="submit-btn" type="submit">
+                Submit
+            </button>
+        </form>
+    </main>
+
+
+    <footer>
+        <p>Rexburg Chamber of Commerce</p>
+        <p>123 Main Street, Rexburg ID, 83440</p>
+        <p>info@RexburgCC.org</p>
+        <p>+(208) 123-4567</p>
+        <p>2022 Rexburg Chamber | Taylor Christensen | WDD230 Project</p>
+    </footer>
+</body>
+</html>
